@@ -1,3 +1,4 @@
 # pavement-crack-detection
 The project is used to share our recent work on pavement crack detection. For the details of the work, the readers are refer to paper.
-The datasets used in paper are shared in link https://drive.google.com/drive/folders/1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-?usp=sharing.
+The datasets used in paper are shared in link https://drive.google.com/drive/folders/1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-?usp=sharing. We will upload the paper and  relevent code soon.
+
