@@ -5,6 +5,7 @@ You can find the paper in https://www.researchgate.net/publication/330244656_Fea
 The datasets used in paper and crack detection results on each datasets are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
 
 Note: please cite the the corresponding papers when using these datasets.
+
 CRACK500: @inproceedings{zhang2016road,
   title={Road crack detection using deep convolutional neural network},
   author={Zhang, Lei and Yang, Fan and Zhang, Yimin Daniel and Zhu, Ying Julie},
@@ -13,6 +14,7 @@ CRACK500: @inproceedings{zhang2016road,
   year={2016},
   organization={IEEE}
 }
+
 GAPs384: @inproceedings{eisenbach2017how,
   title={How to Get Pavement Distress Detection Ready for Deep Learning? A Systematic Approach.},
   author={Eisenbach, Markus and Stricker, Ronny and Seichter, Daniel and Amende, Karl and Debes, Klaus
@@ -22,6 +24,7 @@ GAPs384: @inproceedings{eisenbach2017how,
   pages={2039--2047},
   year={2017}
 }
+
 CFD: @article{shi2016automatic,
   title={Automatic road crack detection using random structured forests},
   author={Shi, Yong and Cui, Limeng and Qi, Zhiquan and Meng, Fan and Chen, Zhensong},
@@ -32,10 +35,12 @@ CFD: @article{shi2016automatic,
   year={2016},
   publisher={IEEE}
 }
+
 AEL: @article{amhaz2016automatic,
   title={Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection.},
   author={Amhaz, Rabih and Chambon, Sylvie and Idier, J{\'e}r{\^o}me and Baltazart, Vincent}
 }
+
 cracktree200: @article{zou2012cracktree,
   title={CrackTree: Automatic crack detection from pavement images},
   author={Zou, Qin and Cao, Yu and Li, Qingquan and Mao, Qingzhou and Wang, Song},
