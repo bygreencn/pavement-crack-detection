@@ -10,7 +10,7 @@ The datasets used in paper, crack detection results on each datasets, and pretra
 
 # Training and Test
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
-Here we use CRACK500 dataset as an example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD dataset).
+Here we use CRACK500 dataset as an example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD500 dataset).
 
 1. Create a "crack" folder in hed/data folder.
 2. Download CRACK500 and extract it to crack folder.
