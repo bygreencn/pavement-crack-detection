@@ -11,6 +11,8 @@ The datasets used in paper, crack detection results on each datasets, and pretra
 # Training and Test
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
 
+If you encounter any issue when using our code or model, please let me know.
+
 # Note: please cite the corresponding papers when using these datasets.
 
 CRACK500: @inproceedings{zhang2016road,
