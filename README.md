@@ -1,10 +1,16 @@
 # pavement-crack-detection
-The project is used to share our recent work on pavement crack detection. For the details of the work, the readers are refer to the paper "Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection".
+The project is used to share our recent work on pavement crack detection. For the details of the work, the readers are refer to the paper "Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection" (FPHB).
 You can find the paper in https://www.researchgate.net/publication/330244656_Feature_Pyramid_and_Hierarchical_Boosting_Network_for_Pavement_Crack_Detection.
 
-The datasets used in paper and crack detection results on each datasets are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
+The datasets used in paper, crack detection results on each datasets, and pretrained model are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
+# Installing
+1. install HED, follow the link https://github.com/s9xie/hed.
+2. put CustomSigmoidCrossEntropyLossLayer.py in hed/python folder
+3. put the *prototxt files in hed/example/hed folder
 
-The code and trained model will be uploaded soon.
+# Training and Test
+The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
+
 # Note: please cite the corresponding papers when using these datasets.
 
 CRACK500: @inproceedings{zhang2016road,
