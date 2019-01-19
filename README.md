@@ -4,7 +4,7 @@ You can find the paper in https://www.researchgate.net/publication/330244656_Fea
 
 The datasets used in paper and crack detection results on each datasets are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
 
-Note: please cite the the corresponding papers when using these datasets.
+# Note: please cite the corresponding papers when using these datasets.
 
 CRACK500: @inproceedings{zhang2016road,
   title={Road crack detection using deep convolutional neural network},
