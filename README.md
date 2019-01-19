@@ -14,7 +14,7 @@ Here we use CRACK500 dataset as an example to demonstrate how to set experiment 
 
 1. Create a "crack" folder in hed/data folder.
 2. Download CRACK500 and extract it to crack folder.
-3. Put train.txt in crack folder, then run "python solve_fphb.py"
+3. Put train.txt in crack folder, then run "python solve_fphb.py" in hed/examples/hed folder.
 
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
