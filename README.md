@@ -4,13 +4,17 @@ You can find the paper in https://www.researchgate.net/publication/330244656_Fea
 
 The datasets used in paper, crack detection results on each datasets, and pretrained model are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
 # Installing
-1. install HED, follow the link https://github.com/s9xie/hed.
-2. put CustomSigmoidCrossEntropyLossLayer.py in hed/python folder
-3. put the *prototxt files in hed/example/hed folder
+1. Install HED, follow the link https://github.com/s9xie/hed.
+2. Put CustomSigmoidCrossEntropyLossLayer.py in hed/python folder
+3. Put the *prototxt files in hed/example/hed folder
 
 # Training and Test
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
+Here we use CRACK500 dataset as example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD dataset).
 
+1. Create a "crack" folder in hed/data folder.
+2. Download CRACK500 and extract it to crack folder.
+3. Put train.txt in crack folder, then run "python solve_fphb.py"
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
 # Note: please cite the corresponding papers when using these datasets.
