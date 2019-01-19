@@ -6,7 +6,7 @@ The datasets used in paper, crack detection results on each datasets, and pretra
 # Installing
 1. Install HED, follow the link https://github.com/s9xie/hed.
 2. Put CustomSigmoidCrossEntropyLossLayer.py in hed/python folder
-3. Put the *prototxt files in hed/example/hed folder
+3. Put the solve_fphb.py and *.prototxt files in hed/example/hed folder
 
 # Training and Test
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
