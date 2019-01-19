@@ -4,6 +4,7 @@ You can find the paper in https://www.researchgate.net/publication/330244656_Fea
 
 The datasets used in paper and crack detection results on each datasets are stored in https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-.
 
+The code and trained model will be uploaded soon.
 # Note: please cite the corresponding papers when using these datasets.
 
 CRACK500: @inproceedings{zhang2016road,
@@ -52,5 +53,4 @@ cracktree200: @article{zou2012cracktree,
   publisher={Elsevier}
 }
 
-The code and trained model will be uploaded soon.
 
