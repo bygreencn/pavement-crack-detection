@@ -1,4 +1,4 @@
-# pavement-crack-detection dataset and model
+# pavement crack detection: dataset and model
 The project is used to share our recent work on pavement crack detection. For the details of the work, the readers are refer to the paper "Feature Pyramid and Hierarchical Boosting Network for Pavement Crack Detection" (FPHB).
 You can find the paper in https://www.researchgate.net/publication/330244656_Feature_Pyramid_and_Hierarchical_Boosting_Network_for_Pavement_Crack_Detection or https://arxiv.org/abs/1901.06340.
 
