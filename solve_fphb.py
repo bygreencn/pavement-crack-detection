@@ -40,7 +40,7 @@ base_weights = '5stage-vgg.caffemodel'
 caffe.set_mode_gpu()
 caffe.set_device(0)
 
-solver = caffe.SGDSolver('solver_fuse_fpn.prototxt')
+solver = caffe.SGDSolver('train_fphb_crack.prototxt')
 
 # do net surgery to set the deconvolution weights for bilinear interpolation
 interp_layers = [k for k in solver.net.params.keys() if 'up' in k]
