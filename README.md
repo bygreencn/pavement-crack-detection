@@ -23,8 +23,8 @@ mkdir crack
 4. Download the fully convolutional VGG model (248MB) from [here](http://vcl.ucsd.edu/hed/5stage-vgg.caffemodel) and put it in "pavement-crack-detection/examples/fphb" folder.
 5. Train fpn and fphn model on CRACK500 data 
 ```shell
-   cd $ROOT_DIR/pavement-crack-detection/examples/fphb
-   python solve_fphb_crack.py or python solve_fpn_crack.py
+cd $ROOT_DIR/pavement-crack-detection/examples/fphb
+python solve_fphb_crack.py or python solve_fpn_crack.py
   ```
 
 # Test
