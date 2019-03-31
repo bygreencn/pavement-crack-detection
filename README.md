@@ -5,18 +5,18 @@ The project is used to share our recent work on pavement crack detection. For th
 You can find the paper in https://www.researchgate.net/publication/330244656_Feature_Pyramid_and_Hierarchical_Boosting_Network_for_Pavement_Crack_Detection or https://arxiv.org/abs/1901.06340.
 
 The pavement crack datasets used in paper, crack detection results on each datasets, and pretrained model are stored in [Google Drive](https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-) and [Daidu Yunpan](https://pan.baidu.com/s/1JwJO96BOtJ50MykBcYKknQ) extract code: jviq.
-# Installing
-1. Install HED, follow the link https://github.com/s9xie/hed.
-2. Put CustomSigmoidCrossEntropyLossLayer.py in hed/python folder
-3. Put the solve_fphb.py and *.prototxt files in hed/example/hed folder
 
-# Training and Test
+# Training
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
 Here we use CRACK500 dataset as an example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD500 dataset).
 
-1. Create a "crack" folder in hed/data folder.
+1. Create a "crack" folder in "pavement-crack-detection/data' folder.
 2. Download CRACK500 and extract it to crack folder.
-3. Put train.txt in crack folder, then run "python solve_fphb.py" in hed/examples/hed folder.
+3. Put train.txt in crack folder 
+4. Run "python solve_fphb_crack.py" or "python solve_fpn_crack.py" in "pavement-crack-detection/examples/fphb" folder.
+
+# Test
+we will complete the test part ASAP.
 
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
