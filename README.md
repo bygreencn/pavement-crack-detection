@@ -7,22 +7,29 @@ You can find the paper in https://www.researchgate.net/publication/330244656_Fea
 The pavement crack datasets used in paper, crack detection results on each datasets, and pretrained model are stored in [Google Drive](https://drive.google.com/open?id=1y9SxmmFVh0xdQR-wdchUmnScuWMJ5_O-) and [Daidu Yunpan](https://pan.baidu.com/s/1JwJO96BOtJ50MykBcYKknQ) extract code: jviq.
 # Installing
 1. Install prerequisites for Caffe
+2. Clone the repository 
+```shell
+git clone https://github.com/fyangneil/pavement-crack-detection.git
+```
+3. Build caffe
+```shell
+cd $ROOT_DIR/pavement-crack-detection
+make -j8&make pycaffe
+```
+
 # Training
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
 Here we use CRACK500 dataset as an example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD500 dataset).
 
-1. Clone the repository
-```shell
-git clone https://github.com/fyangneil/pavement-crack-detection.git
-```
-2. Create a "crack" folder in "pavement-crack-detection/data' folder.
+
+1. Create a "crack" folder in "pavement-crack-detection/data' folder.
 ```shell
 cd $ROOT_DIR/pavement-crack-detection/data
 mkdir crack
 ```
-3. Download CRACK500 and extract it to crack folder and put "pavement-crack-detection/examples/fphb/train.txt" in "crack" folder. 
-4. Download the fully convolutional VGG model (248MB) from [here](http://vcl.ucsd.edu/hed/5stage-vgg.caffemodel) and put it in "pavement-crack-detection/examples/fphb" folder.
-5. Train fpn and fphn model on CRACK500 data 
+2. Download CRACK500 and extract it to crack folder and put "pavement-crack-detection/examples/fphb/train.txt" in "crack" folder. 
+3. Download the fully convolutional VGG model (248MB) from [here](http://vcl.ucsd.edu/hed/5stage-vgg.caffemodel) and put it in "pavement-crack-detection/examples/fphb" folder.
+4. Train fpn and fphn model on CRACK500 data 
 ```shell
 cd $ROOT_DIR/pavement-crack-detection/examples/fphb
 python solve_fphb_crack.py or python solve_fpn_crack.py
