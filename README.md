@@ -11,7 +11,7 @@ The pavement crack datasets used in paper, crack detection results on each datas
 ```shell
 git clone https://github.com/fyangneil/pavement-crack-detection.git
 ```
-3. Build caffe
+3. Build Caffe
 ```shell
 cd $ROOT_DIR/pavement-crack-detection
 make -j8&make pycaffe
