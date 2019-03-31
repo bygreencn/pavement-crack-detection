@@ -10,10 +10,22 @@ The pavement crack datasets used in paper, crack detection results on each datas
 The training and test steps are same with HED, please read the instruction in https://github.com/s9xie/hed.
 Here we use CRACK500 dataset as an example to demonstrate how to set experiment (assume you have successfully train and test HED on BSD500 dataset).
 
-1. Create a "crack" folder in "pavement-crack-detection/data' folder.
-2. Download CRACK500 and extract it to crack folder.
-3. Put train.txt in crack folder 
-4. Run "python solve_fphb_crack.py" or "python solve_fpn_crack.py" in "pavement-crack-detection/examples/fphb" folder.
+1. Clone the repository
+```shell
+git clone https://github.com/fyangneil/pavement-crack-detection.git
+```
+2. Create a "crack" folder in "pavement-crack-detection/data' folder.
+```shell
+cd $ROOT_DIR/pavement-crack-detection/data
+mkdir crack
+```
+3. Download CRACK500 and extract it to crack folder and put "pavement-crack-detection/examples/fphb/train.txt" in "crack" folder. 
+
+4. Train fpn and fphn model on CRACK500 data 
+```shell
+   cd $ROOT_DIR/pavement-crack-detection/examples/fphb
+   python solve_fphb_crack.py or python solve_fpn_crack.py
+  ```
 
 # Test
 we will complete the test part ASAP.
