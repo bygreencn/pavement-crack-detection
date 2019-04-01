@@ -27,7 +27,7 @@ Here we use CRACK500 dataset as an example to demonstrate how to set experiment 
 cd $ROOT_DIR/pavement-crack-detection/data
 mkdir crack
 ```
-2. Download CRACK500 and extract it to crack folder and put "pavement-crack-detection/examples/fphb/train.txt" in "crack" folder. 
+2. Download CRACK500 and extract it to crack folder and put "train.txt" in "crack" folder. 
 3. Download the fully convolutional VGG model (248MB) from [here](http://vcl.ucsd.edu/hed/5stage-vgg.caffemodel) and put it in "pavement-crack-detection/examples/fphb" folder.
 4. Train fpn and fphn model on CRACK500 data 
 ```shell
@@ -36,7 +36,13 @@ python solve_fphb_crack.py or python solve_fpn_crack.py
   ```
 
 # Test
-we will complete the test part ASAP.
+We use CRACk500 as an example to demonstrate the process of testing the trained model.
+1. Download CRACK500 and extract it to "crack" folder and put "test.txt" in "crack" folder.  
+2. Test the model
+```shell
+cd $ROOT_DIR/pavement-crack-detection/examples/fphb
+python test.py
+```
 
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
