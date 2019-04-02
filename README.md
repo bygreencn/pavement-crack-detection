@@ -43,6 +43,7 @@ We use CRACk500 as an example to demonstrate the process of testing the trained 
 cd $ROOT_DIR/pavement-crack-detection/examples/fphb
 python test.py
 ```
+When testing on one image, you are referred to "pavement-crack-detection/examples/fphb/FPHB-tutorial.ipynb" file.
 
 If you encounter any issue when using our code or model, feel free to contact me fyang@temple.edu.
 
